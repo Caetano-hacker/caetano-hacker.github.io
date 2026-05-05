@@ -61,7 +61,7 @@ function draw() {
   ctx.textAlign = 'left';
 
   if (phase === 'idle') {
-    drawOverlay('SNAKE', 'swipe or press  ← ↑ → ↓  to start');
+    drawOverlay('SNAKE', 'Presione ← ↑ → ↓  para começar');
   } else if (phase === 'dead') {
     drawOverlay('GAME OVER', 'score ' + score + '   tap or press arrow to play again');
   }
